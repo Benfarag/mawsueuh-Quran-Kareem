@@ -70,6 +70,7 @@ nav a {
 
 .cardsound {
     display: flex;
+    flex-wrap: wrap;
     padding: 10px;
     gap: 4px;
     background-color: #0e6a0e;
