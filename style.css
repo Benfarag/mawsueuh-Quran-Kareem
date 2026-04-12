@@ -4,17 +4,31 @@
     padding: 0;
     box-sizing: border-box;
         
-}
+} 
+
 
 header {
-    background-color: #0e6a0e;
+    background-color: #1b3022;
+    background-repeat: repeat;
+    background-size: 150px ;
+    background-color: rgba(10, 31, 17, 0.9);
+    
+    
+}
+
+.maskimage {
+    -webkit-mask-image: url(image/Abstract-Black-Frame-Design-11.svg);
+    mask-image: url(image/Abstract-Black-Frame-Design-11.svg);
+    opacity: 0.1;
 }
 
 .logo {
-    color: white;
+    color: #c5a059;
     padding: 10px;
     justify-content: left;
-    text-align: left;
+    text-align: left; 
+    background-color: #1b3022;
+    text-shadow: rgba(0, 0, 0, 0.3);
 }
 
 
@@ -22,7 +36,7 @@ header {
     position: relative;
     display: flex;
     justify-content: center;
-    margin:  auto;
+    margin:  150px;
     padding: 20px;
     width: 400px;
 }
@@ -32,7 +46,9 @@ header {
     border-radius: 30px;
     width: 100%;
     height: 30px;
-    padding: 20px;
+    padding: 21px;
+    padding-left: 15px;
+    padding-right: 60px;
     outline: none;
 }
 
@@ -51,8 +67,14 @@ nav{
 nav a {
     text-decoration: none;
     font-size: 20px;
-    color: white;
+    color: #c5a059;
 }
+
+nav a:hover {
+    color: #f9f7f2;
+}
+    
+
 
 .boxsearch button {
     position: absolute;
@@ -66,6 +88,7 @@ nav a {
     color: white;
     border: none;
     cursor: pointer;
+    
 }
 
 .cardsound {
@@ -91,17 +114,21 @@ audio {
     background-color: rgb(235, 235, 235);
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 10px 20px 10px rgba(154, 154, 154, 0.29);
+    box-shadow: 10px 15px 10px rgba(20, 20, 20, 0.29);
 
 }
 
-.titlqr {
+.titlqr   {
     background-color: #004d00;
     padding: 10px;
     margin-top: 1px;
     color: white;
 }
 
+
+html {
+    scroll-behavior: smooth;
+}
 
 @font-face {
     font-family: Beiruti;
